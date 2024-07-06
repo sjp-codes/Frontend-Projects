@@ -1,0 +1,70 @@
+.Heading{
+    color:whitesmoke;
+    height: 60px;
+    font-size: 38px;
+    font-family: 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(16, 16, 16);
+    /* justify-content: center; */
+    
+  }
+  
+  ::placeholder {
+    color: rgb(221, 221, 221);
+  }
+  
+  input {
+    padding: 28px;
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    cursor: pointer;
+    width: 80px;
+    background-color: rgb(47, 51, 50);
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    margin: 0.2em;
+    
+    
+  }
+  
+  .first,
+  .second,
+  .third,
+  .fourth,
+  .fifth {
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    background-color: rgb(47, 51, 50);
+    width: 260px;
+  }
+  
+  input[type="button"]:hover {
+    background-color: rgb(101, 101, 101);
+    color: #fff;
+  }
+  
+  #clearbutton {
+    color: #fff;
+    background-color: rgb(255, 42, 42);
+  }
+
+  #equalbutton{
+    color: #fff;
+    background-color:rgb(183, 182, 224);
+}

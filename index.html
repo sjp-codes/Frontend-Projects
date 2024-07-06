@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class ="Heading"><label>CALCULATOR</label></div>
+    <div class="first">
+        <input type="text" name="result" id="result" placeholder="RESULT" readonly />
+        <input type="button" value="C" id="clearbutton" onclick="result.value='' " />
+    </div>
+    <div class="second">
+        <input type="button" id="sev" value="7" onclick="show(7)" />
+        <input type="button" id="eig" value="8" onclick="show(8)" />
+        <input type="button" id="nin" value="9" onclick="show(9)" />
+        <input type="button" value="=" id="equalbutton" onclick= "Calculate(result.value)" />
+    </div>
+    <div class="third">
+        <input type="button" id="fou" value="4" onclick="show(4)" />
+        <input type="button" id="fix" value="5" onclick="show(5)" />
+        <input type="button" id="six" value="6" onclick="show(6)" />
+        <input type="button" id="add" value="+" onclick="show('+')" />
+    </div>
+    <div class="fourth">
+        <input type="button" id="one" value="1" onclick="show(1)" />
+        <input type="button" id="two" value="2" onclick="show(2)" />
+        <input type="button" id="thr" value="3" onclick="show(3)" />
+        <input type="button" id="min" value="-" onclick="show('-')" />
+    </div>
+    <div class="fifth">
+        <input type="button" id="zer" value="0" onclick="show(0)" />
+        <input type="button" id="dot" value="." onclick="show('.')" />
+        <input type="button" id="div" value="/" onclick="show('/')" />
+        <input type="button" id="mul" value="*" onclick="show('*')" />
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
