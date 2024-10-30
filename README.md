@@ -3,9 +3,9 @@ The Todo List application is a simple tool built using the React framework. It a
 
 
 ## Simple Calculator
- a project to understand HTML, CSS and JS
+ A simple calculator to understand HTML, CSS and JS 
 
- future plans: creating a light theme version to the same
+ Future plans: creating a light theme version to the same
 
 ## Indian Budget Survey Form Website
- To practice HTML and CSS
+ To practice HTML and CSS using a Form
